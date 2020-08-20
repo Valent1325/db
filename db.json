@@ -97,51 +97,6 @@
           "middleName": "Егорович",
           "email": "egor@mail.ru",
           "inGroup": false
-        },
-        {
-          "id": "6",
-          "login": "maxim",
-          "lastName": "Максимов",
-          "firstName": "Максим",
-          "middleName": "Максимович",
-          "email": "maxim@mail.ru",
-          "inGroup": false
-        },
-        {
-          "id": "7",
-          "login": "ark",
-          "lastName": "Аркадьев",
-          "firstName": "Аркадий",
-          "middleName": "Аркадьевич",
-          "email": "ark@mail.ru",
-          "inGroup": false
-        },
-        {
-          "id": "8",
-          "login": "gen",
-          "lastName": "Геннадьев",
-          "firstName": "Геннадий",
-          "middleName": "Геннадьевич",
-          "email": "gen@mail.ru",
-          "inGroup": false
-        },
-        {
-          "id": "9",
-          "login": "pava",
-          "lastName": "Павлов",
-          "firstName": "Павел",
-          "middleName": "Павлович",
-          "email": "pava@mail.ru",
-          "inGroup": false
-        },
-        {
-          "id": "10",
-          "login": "alex",
-          "lastName": "Александров",
-          "firstName": "Александр",
-          "middleName": "Александрович",
-          "email": "alex@mail.ru",
-          "inGroup": false
         }
       ]
     },
@@ -184,51 +139,6 @@
           "firstName": "Егор",
           "middleName": "Егорович",
           "email": "egor@mail.ru",
-          "inGroup": false
-        },
-        {
-          "id": "6",
-          "login": "maxim",
-          "lastName": "Максимов",
-          "firstName": "Максим",
-          "middleName": "Максимович",
-          "email": "maxim@mail.ru",
-          "inGroup": false
-        },
-        {
-          "id": "7",
-          "login": "ark",
-          "lastName": "Аркадьев",
-          "firstName": "Аркадий",
-          "middleName": "Аркадьевич",
-          "email": "ark@mail.ru",
-          "inGroup": false
-        },
-        {
-          "id": "8",
-          "login": "gen",
-          "lastName": "Геннадьев",
-          "firstName": "Геннадий",
-          "middleName": "Геннадьевич",
-          "email": "gen@mail.ru",
-          "inGroup": false
-        },
-        {
-          "id": "9",
-          "login": "pava",
-          "lastName": "Павлов",
-          "firstName": "Павел",
-          "middleName": "Павлович",
-          "email": "pava@mail.ru",
-          "inGroup": false
-        },
-        {
-          "id": "10",
-          "login": "alex",
-          "lastName": "Александров",
-          "firstName": "Александр",
-          "middleName": "Александрович",
-          "email": "alex@mail.ru",
           "inGroup": false
         }
       ]
@@ -312,39 +222,6 @@
         "attributeName7": 1.2,
         "attributeName8": 0,
         "attributeName9": ""
-      }
-    },
-    {
-      "code": "testEl",
-      "name": "et",
-      "id": "testEl",
-      "dictionariesId": "referenceCodeTwo",
-      "attributes": {
-        "attributeName10": [
-          "value1",
-          "value2"
-        ],
-        "attributeName11": [
-          1,
-          2,
-          3
-        ],
-        "attributeName12": [
-          11111111111111112,
-          22222222222222220000
-        ],
-        "attributeName13": [
-          "2013-10-04",
-          "1992-08-10"
-        ],
-        "attributeName14": [
-          "2013-10-04",
-          "1992-08-10"
-        ],
-        "attributeName15": [
-          111.341,
-          34.2
-        ]
       }
     }
   ],
