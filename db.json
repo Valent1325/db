@@ -158,20 +158,6 @@
       "description": "Тут большое человекочитаемое описание. Или нет.",
       "isSystem": false,
       "id": "referenceCodeTwo"
-    },
-    {
-      "code": "referenceCodeThree",
-      "name": "Название справочника3",
-      "description": "Тут большое человекочитаемое описание. Или нет.",
-      "isSystem": false,
-      "id": "referenceCodeThree"
-    },
-    {
-      "code": "referenceCodeFour",
-      "name": "Название справочника4",
-      "description": "Тут большое человекочитаемое описание. Или нет.",
-      "isSystem": false,
-      "id": "referenceCodeFour"
     }
   ],
   "values": [
@@ -206,23 +192,6 @@
       "attributes": "",
       "dictionariesId": "referenceCodeOne",
       "id": "referenceCode4"
-    },
-    {
-      "code": "test",
-      "name": "test",
-      "id": "test",
-      "dictionariesId": "referenceCodeOne",
-      "attributes": {
-        "attributeName1": true,
-        "attributeName2": "value",
-        "attributeName3": "2020-02-03",
-        "attributeName4": 1,
-        "attributeName5": 1111111,
-        "attributeName6": "",
-        "attributeName7": 1.2,
-        "attributeName8": 0,
-        "attributeName9": ""
-      }
     }
   ],
   "attributes": [
