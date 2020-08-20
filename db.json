@@ -1,0 +1,929 @@
+{
+  "users": [
+    {
+      "lastName": "Иванов",
+      "firstName": "Иван",
+      "middleName": "Иванович",
+      "phoneNumber": "",
+      "email": "ivan@mail.ru",
+      "login": "ivan",
+      "status": "Активна",
+      "roles": [
+        "ADMIN",
+        "DEVELOPER"
+      ],
+      "created": "2020-02-12",
+      "createdBy": "admin",
+      "deleted": "",
+      "deletedBy": "",
+      "ldapId": "",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "login": "petr",
+      "email": "petr@mail.ru",
+      "lastName": "Петров",
+      "firstName": "Петр",
+      "middleName": "Петрович",
+      "status": "Активна",
+      "created": "2019-02-12",
+      "modified": "2019-02-12",
+      "createdBy": ""
+    },
+    {
+      "id": "4",
+      "login": "denis",
+      "email": "denis@mail.ru",
+      "lastName": "Денисов",
+      "firstName": "Денис",
+      "middleName": "Денисович",
+      "status": "Удалена",
+      "created": "2017-02-12",
+      "modified": "2017-02-12",
+      "createdBy": ""
+    },
+    {
+      "id": "5",
+      "login": "egor",
+      "email": "egor@mail.ru",
+      "lastName": "Егоров",
+      "firstName": "Егор",
+      "middleName": "Егорович",
+      "status": "Активна",
+      "created": "2016-02-12",
+      "modified": "2016-02-12",
+      "createdBy": ""
+    },
+    {
+      "id": "6",
+      "login": "maxim",
+      "email": "maxim@mail.ru",
+      "lastName": "Максимов",
+      "firstName": "Максим",
+      "middleName": "Максимович",
+      "status": "Активна",
+      "created": "2015-02-12",
+      "modified": "2015-02-12",
+      "createdBy": ""
+    },
+    {
+      "id": "7",
+      "login": "ark",
+      "email": "ark@mail.ru",
+      "lastName": "Аркадьев",
+      "firstName": "Аркадий",
+      "middleName": "Аркадьевич",
+      "status": "Не подтверждена",
+      "created": "2014-02-12",
+      "modified": "2014-02-12",
+      "createdBy": ""
+    },
+    {
+      "id": "8",
+      "login": "gen",
+      "email": "gen@mail.ru",
+      "lastName": "Геннадьев",
+      "firstName": "Геннадий",
+      "middleName": "Геннадьевич",
+      "status": "Активна",
+      "created": "2013-02-12",
+      "modified": "2013-02-12",
+      "createdBy": ""
+    },
+    {
+      "id": "9",
+      "login": "pava",
+      "email": "pava@mail.ru",
+      "lastName": "Павлов",
+      "firstName": "Павел",
+      "middleName": "Павлович",
+      "status": "Активна",
+      "created": "2012-02-12",
+      "modified": "2012-02-12",
+      "createdBy": ""
+    },
+    {
+      "lastName": "Александров",
+      "firstName": "Александр",
+      "middleName": "Александрович",
+      "phoneNumber": "",
+      "email": "alex@mail.ru",
+      "login": "alex",
+      "status": "Не подтверждена",
+      "roles": [
+        "ADMIN",
+        "MODERATOR"
+      ],
+      "created": "2011-02-12",
+      "createdBy": "admin",
+      "deleted": "",
+      "deletedBy": "",
+      "ldapId": "",
+      "id": "10"
+    }
+  ],
+  "groups": [
+    {
+      "code": "code1",
+      "name": "aname",
+      "id": "code1",
+      "groupUsers": [
+        {
+          "id": "1",
+          "login": "ivan",
+          "lastName": "Иванов",
+          "firstName": "Иван",
+          "middleName": "Иванович",
+          "email": "ivan@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "2",
+          "login": "petr",
+          "lastName": "Петров",
+          "firstName": "Петр",
+          "middleName": "Петрович",
+          "email": "petr@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "4",
+          "login": "denis",
+          "lastName": "Денисов",
+          "firstName": "Денис",
+          "middleName": "Денисович",
+          "email": "denis@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "5",
+          "login": "egor",
+          "lastName": "Егоров",
+          "firstName": "Егор",
+          "middleName": "Егорович",
+          "email": "egor@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "6",
+          "login": "maxim",
+          "lastName": "Максимов",
+          "firstName": "Максим",
+          "middleName": "Максимович",
+          "email": "maxim@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "7",
+          "login": "ark",
+          "lastName": "Аркадьев",
+          "firstName": "Аркадий",
+          "middleName": "Аркадьевич",
+          "email": "ark@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "8",
+          "login": "gen",
+          "lastName": "Геннадьев",
+          "firstName": "Геннадий",
+          "middleName": "Геннадьевич",
+          "email": "gen@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "9",
+          "login": "pava",
+          "lastName": "Павлов",
+          "firstName": "Павел",
+          "middleName": "Павлович",
+          "email": "pava@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "10",
+          "login": "alex",
+          "lastName": "Александров",
+          "firstName": "Александр",
+          "middleName": "Александрович",
+          "email": "alex@mail.ru",
+          "inGroup": false
+        }
+      ]
+    },
+    {
+      "code": "code2",
+      "name": "bname",
+      "id": "code2",
+      "groupUsers": [
+        {
+          "id": "1",
+          "login": "ivan",
+          "lastName": "Иванов",
+          "firstName": "Иван",
+          "middleName": "Иванович",
+          "email": "ivan@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "2",
+          "login": "petr",
+          "lastName": "Петров",
+          "firstName": "Петр",
+          "middleName": "Петрович",
+          "email": "petr@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "4",
+          "login": "denis",
+          "lastName": "Денисов",
+          "firstName": "Денис",
+          "middleName": "Денисович",
+          "email": "denis@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "5",
+          "login": "egor",
+          "lastName": "Егоров",
+          "firstName": "Егор",
+          "middleName": "Егорович",
+          "email": "egor@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "6",
+          "login": "maxim",
+          "lastName": "Максимов",
+          "firstName": "Максим",
+          "middleName": "Максимович",
+          "email": "maxim@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "7",
+          "login": "ark",
+          "lastName": "Аркадьев",
+          "firstName": "Аркадий",
+          "middleName": "Аркадьевич",
+          "email": "ark@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "8",
+          "login": "gen",
+          "lastName": "Геннадьев",
+          "firstName": "Геннадий",
+          "middleName": "Геннадьевич",
+          "email": "gen@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "9",
+          "login": "pava",
+          "lastName": "Павлов",
+          "firstName": "Павел",
+          "middleName": "Павлович",
+          "email": "pava@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "10",
+          "login": "alex",
+          "lastName": "Александров",
+          "firstName": "Александр",
+          "middleName": "Александрович",
+          "email": "alex@mail.ru",
+          "inGroup": false
+        }
+      ]
+    },
+    {
+      "code": "code3",
+      "name": "cname",
+      "id": "code3",
+      "groupUsers": [
+        {
+          "id": "1",
+          "login": "ivan",
+          "lastName": "Иванов",
+          "firstName": "Иван",
+          "middleName": "Иванович",
+          "email": "ivan@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "2",
+          "login": "petr",
+          "lastName": "Петров",
+          "firstName": "Петр",
+          "middleName": "Петрович",
+          "email": "petr@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "4",
+          "login": "denis",
+          "lastName": "Денисов",
+          "firstName": "Денис",
+          "middleName": "Денисович",
+          "email": "denis@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "5",
+          "login": "egor",
+          "lastName": "Егоров",
+          "firstName": "Егор",
+          "middleName": "Егорович",
+          "email": "egor@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "6",
+          "login": "maxim",
+          "lastName": "Максимов",
+          "firstName": "Максим",
+          "middleName": "Максимович",
+          "email": "maxim@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "7",
+          "login": "ark",
+          "lastName": "Аркадьев",
+          "firstName": "Аркадий",
+          "middleName": "Аркадьевич",
+          "email": "ark@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "8",
+          "login": "gen",
+          "lastName": "Геннадьев",
+          "firstName": "Геннадий",
+          "middleName": "Геннадьевич",
+          "email": "gen@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "9",
+          "login": "pava",
+          "lastName": "Павлов",
+          "firstName": "Павел",
+          "middleName": "Павлович",
+          "email": "pava@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "10",
+          "login": "alex",
+          "lastName": "Александров",
+          "firstName": "Александр",
+          "middleName": "Александрович",
+          "email": "alex@mail.ru",
+          "inGroup": false
+        }
+      ]
+    },
+    {
+      "code": "code4",
+      "name": "dname",
+      "parentGroupCode": null,
+      "id": "code4",
+      "groupUsers": [
+        {
+          "id": "1",
+          "login": "ivan",
+          "lastName": "Иванов",
+          "firstName": "Иван",
+          "middleName": "Иванович",
+          "email": "ivan@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "2",
+          "login": "petr",
+          "lastName": "Петров",
+          "firstName": "Петр",
+          "middleName": "Петрович",
+          "email": "petr@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "4",
+          "login": "denis",
+          "lastName": "Денисов",
+          "firstName": "Денис",
+          "middleName": "Денисович",
+          "email": "denis@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "5",
+          "login": "egor",
+          "lastName": "Егоров",
+          "firstName": "Егор",
+          "middleName": "Егорович",
+          "email": "egor@mail.ru",
+          "inGroup": true
+        },
+        {
+          "id": "6",
+          "login": "maxim",
+          "lastName": "Максимов",
+          "firstName": "Максим",
+          "middleName": "Максимович",
+          "email": "maxim@mail.ru",
+          "inGroup": true
+        },
+        {
+          "id": "7",
+          "login": "ark",
+          "lastName": "Аркадьев",
+          "firstName": "Аркадий",
+          "middleName": "Аркадьевич",
+          "email": "ark@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "8",
+          "login": "gen",
+          "lastName": "Геннадьев",
+          "firstName": "Геннадий",
+          "middleName": "Геннадьевич",
+          "email": "gen@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "9",
+          "login": "pava",
+          "lastName": "Павлов",
+          "firstName": "Павел",
+          "middleName": "Павлович",
+          "email": "pava@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "10",
+          "login": "alex",
+          "lastName": "Александров",
+          "firstName": "Александр",
+          "middleName": "Александрович",
+          "email": "alex@mail.ru",
+          "inGroup": false
+        }
+      ]
+    },
+    {
+      "code": "code5",
+      "name": "ename",
+      "parentGroupCode": null,
+      "id": "code5",
+      "groupUsers": [
+        {
+          "id": "1",
+          "login": "ivan",
+          "lastName": "Иванов",
+          "firstName": "Иван",
+          "middleName": "Иванович",
+          "email": "ivan@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "2",
+          "login": "petr",
+          "lastName": "Петров",
+          "firstName": "Петр",
+          "middleName": "Петрович",
+          "email": "petr@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "4",
+          "login": "denis",
+          "lastName": "Денисов",
+          "firstName": "Денис",
+          "middleName": "Денисович",
+          "email": "denis@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "5",
+          "login": "egor",
+          "lastName": "Егоров",
+          "firstName": "Егор",
+          "middleName": "Егорович",
+          "email": "egor@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "6",
+          "login": "maxim",
+          "lastName": "Максимов",
+          "firstName": "Максим",
+          "middleName": "Максимович",
+          "email": "maxim@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "7",
+          "login": "ark",
+          "lastName": "Аркадьев",
+          "firstName": "Аркадий",
+          "middleName": "Аркадьевич",
+          "email": "ark@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "8",
+          "login": "gen",
+          "lastName": "Геннадьев",
+          "firstName": "Геннадий",
+          "middleName": "Геннадьевич",
+          "email": "gen@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "9",
+          "login": "pava",
+          "lastName": "Павлов",
+          "firstName": "Павел",
+          "middleName": "Павлович",
+          "email": "pava@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "10",
+          "login": "alex",
+          "lastName": "Александров",
+          "firstName": "Александр",
+          "middleName": "Александрович",
+          "email": "alex@mail.ru",
+          "inGroup": false
+        }
+      ]
+    },
+    {
+      "code": "test",
+      "name": "test",
+      "parentGroupCode": "",
+      "id": "test",
+      "groupUsers": [
+        {
+          "id": "1",
+          "login": "ivan",
+          "lastName": "Иванов",
+          "firstName": "Иван",
+          "middleName": "Иванович",
+          "email": "ivan@mail.ru",
+          "inGroup": true
+        },
+        {
+          "id": "2",
+          "login": "petr",
+          "lastName": "Петров",
+          "firstName": "Петр",
+          "middleName": "Петрович",
+          "email": "petr@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "4",
+          "login": "denis",
+          "lastName": "Денисов",
+          "firstName": "Денис",
+          "middleName": "Денисович",
+          "email": "denis@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "5",
+          "login": "egor",
+          "lastName": "Егоров",
+          "firstName": "Егор",
+          "middleName": "Егорович",
+          "email": "egor@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "6",
+          "login": "maxim",
+          "lastName": "Максимов",
+          "firstName": "Максим",
+          "middleName": "Максимович",
+          "email": "maxim@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "7",
+          "login": "ark",
+          "lastName": "Аркадьев",
+          "firstName": "Аркадий",
+          "middleName": "Аркадьевич",
+          "email": "ark@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "8",
+          "login": "gen",
+          "lastName": "Геннадьев",
+          "firstName": "Геннадий",
+          "middleName": "Геннадьевич",
+          "email": "gen@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "9",
+          "login": "pava",
+          "lastName": "Павлов",
+          "firstName": "Павел",
+          "middleName": "Павлович",
+          "email": "pava@mail.ru",
+          "inGroup": false
+        },
+        {
+          "id": "10",
+          "login": "alex",
+          "lastName": "Александров",
+          "firstName": "Александр",
+          "middleName": "Александрович",
+          "email": "alex@mail.ru",
+          "inGroup": false
+        }
+      ]
+    }
+  ],
+  "dictionaries": [
+    {
+      "code": "referenceCodeOne",
+      "name": "Название справочника1",
+      "description": "Тут большое человекочитаемое описание. Или нет.",
+      "isSystem": false,
+      "id": "referenceCodeOne"
+    },
+    {
+      "code": "referenceCodeTwo",
+      "name": "Название справочника2",
+      "description": "Тут большое человекочитаемое описание. Или нет.",
+      "isSystem": false,
+      "id": "referenceCodeTwo"
+    },
+    {
+      "code": "referenceCodeThree",
+      "name": "Название справочника3",
+      "description": "Тут большое человекочитаемое описание. Или нет.",
+      "isSystem": false,
+      "id": "referenceCodeThree"
+    },
+    {
+      "code": "referenceCodeFour",
+      "name": "Название справочника4",
+      "description": "Тут большое человекочитаемое описание. Или нет.",
+      "isSystem": false,
+      "id": "referenceCodeFour"
+    }
+  ],
+  "values": [
+    {
+      "code": "referenceCode1",
+      "name": "referenceItemName",
+      "attributes": {
+        "attributeName1": false,
+        "attributeName2": "атрибута для раскрытого",
+        "attributeName3": ""
+      },
+      "dictionariesId": "referenceCodeOne",
+      "id": "referenceCode1"
+    },
+    {
+      "code": "referenceCode2",
+      "name": "referenceItemName",
+      "attributes": "",
+      "dictionariesId": "referenceCodeOne",
+      "id": "referenceCode2"
+    },
+    {
+      "code": "referenceCode3",
+      "name": "referenceItemName",
+      "attributes": "",
+      "dictionariesId": "referenceCodeOne",
+      "id": "referenceCode3"
+    },
+    {
+      "code": "referenceCode4",
+      "name": "referenceItemName",
+      "attributes": "",
+      "dictionariesId": "referenceCodeOne",
+      "id": "referenceCode4"
+    },
+    {
+      "code": "test",
+      "name": "test",
+      "id": "test",
+      "dictionariesId": "referenceCodeOne",
+      "attributes": {
+        "attributeName1": true,
+        "attributeName2": "value",
+        "attributeName3": "2020-02-03",
+        "attributeName4": 1,
+        "attributeName5": 1111111,
+        "attributeName6": "",
+        "attributeName7": 1.2,
+        "attributeName8": 0,
+        "attributeName9": ""
+      }
+    },
+    {
+      "code": "testEl",
+      "name": "et",
+      "id": "testEl",
+      "dictionariesId": "referenceCodeTwo",
+      "attributes": {
+        "attributeName10": [
+          "value1",
+          "value2"
+        ],
+        "attributeName11": [
+          1,
+          2,
+          3
+        ],
+        "attributeName12": [
+          11111111111111112,
+          22222222222222220000
+        ],
+        "attributeName13": [
+          "2013-10-04",
+          "1992-08-10"
+        ],
+        "attributeName14": [
+          "2013-10-04",
+          "1992-08-10"
+        ],
+        "attributeName15": [
+          111.341,
+          34.2
+        ]
+      }
+    }
+  ],
+  "attributes": [
+    {
+      "attributeName": "attributeName1",
+      "type": "BOOLEAN",
+      "container": "NONE",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": true,
+      "dictionariesId": "referenceCodeOne",
+      "id": "attributeName1"
+    },
+    {
+      "attributeName": "attributeName2",
+      "type": "STRING",
+      "container": "NONE",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": "value",
+      "dictionariesId": "referenceCodeOne",
+      "id": "attributeName2"
+    },
+    {
+      "attributeName": "attributeName3",
+      "type": "localDate",
+      "container": "NONE",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": "2020-02-03",
+      "dictionariesId": "referenceCodeOne",
+      "id": "attributeName3"
+    },
+    {
+      "attributeName": "attributeName4",
+      "type": "INTEGER",
+      "container": "NONE",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": 1,
+      "dictionariesId": "referenceCodeOne",
+      "id": "attributeName4"
+    },
+    {
+      "attributeName": "attributeName5",
+      "type": "LONG",
+      "container": "NONE",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": 1111111,
+      "dictionariesId": "referenceCodeOne",
+      "id": "attributeName5"
+    },
+    {
+      "attributeName": "attributeName6",
+      "type": "Instant",
+      "container": "NONE",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": "",
+      "dictionariesId": "referenceCodeOne",
+      "id": "attributeName6"
+    },
+    {
+      "attributeName": "attributeName7",
+      "type": "BIG_DECIMAL",
+      "container": "NONE",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": 1.2,
+      "dictionariesId": "referenceCodeOne",
+      "id": "attributeName7"
+    },
+    {
+      "attributeName": "attributeName8",
+      "type": "BYTES",
+      "container": "NONE",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": 0,
+      "dictionariesId": "referenceCodeOne",
+      "id": "attributeName8"
+    },
+    {
+      "attributeName": "attributeName9",
+      "type": "HTML_TEMPLATE",
+      "container": "NONE",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": "",
+      "dictionariesId": "referenceCodeOne",
+      "id": "attributeName9"
+    },
+    {
+      "attributeName": "attributeName10",
+      "type": "STRING",
+      "container": "LIST",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": [
+        "value1",
+        "value2"
+      ],
+      "dictionariesId": "referenceCodeTwo",
+      "id": "attributeName10"
+    },
+    {
+      "attributeName": "attributeName11",
+      "type": "INTEGER",
+      "container": "LIST",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": [
+        1,
+        2,
+        3
+      ],
+      "dictionariesId": "referenceCodeTwo",
+      "id": "attributeName11"
+    },
+    {
+      "attributeName": "attributeName12",
+      "type": "LONG",
+      "container": "LIST",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": [
+        11111111111111112,
+        22222222222222220000
+      ],
+      "dictionariesId": "referenceCodeTwo",
+      "id": "attributeName12"
+    },
+    {
+      "attributeName": "attributeName13",
+      "type": "Instant",
+      "container": "LIST",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": [
+        "2013-10-04",
+        "1992-08-10"
+      ],
+      "dictionariesId": "referenceCodeTwo",
+      "id": "attributeName13"
+    },
+    {
+      "attributeName": "attributeName14",
+      "type": "localDate",
+      "container": "LIST",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": [
+        "2013-10-04",
+        "1992-08-10"
+      ],
+      "dictionariesId": "referenceCodeTwo",
+      "id": "attributeName14"
+    },
+    {
+      "attributeName": "attributeName15",
+      "type": "BIG_DECIMAL",
+      "container": "LIST",
+      "description": "Тут большое человеческое описание. Или нет.",
+      "default": [
+        111.341,
+        34.2
+      ],
+      "dictionariesId": "referenceCodeTwo",
+      "id": "attributeName15"
+    }
+  ]
+}
